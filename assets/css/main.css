@@ -740,43 +740,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us Section
+# Types of Election section
 --------------------------------------------------------------*/
-.why-us .why-box {
+.Elections-type .Election-box {
   padding: 30px;
   background: var(--color-primary);
   color: #fff;
 }
-
-.why-us .why-box h3 {
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-}
-
-.why-us .why-box p {
-  margin-bottom: 30px;
-}
-
-.why-us .why-box .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-
-.why-us .why-box .more-btn i {
-  font-size: 14px;
-}
-
-.why-us .why-box .more-btn:hover {
-  color: var(--color-primary);
-  background: #fff;
-}
-
-.why-us .icon-box {
+.Elections-type .icon-box {
   text-align: center;
   background: #fff;
   padding: 40px 30px;
@@ -786,7 +757,7 @@ section {
   transition: 0.3s;
 }
 
-.why-us .icon-box i {
+.Elections-type .icon-box i {
   color: var(--color-primary);
   margin-bottom: 30px;
   font-size: 32px;
@@ -800,24 +771,23 @@ section {
   height: 64px;
 }
 
-.why-us .icon-box h4 {
+.Elections-type .icon-box h4 {
   font-size: 20px;
   font-weight: 400;
   margin: 0 0 30px 0;
   font-family: var(--font-secondary);
 }
 
-.why-us .icon-box p {
+.Elections-type .icon-box p {
   font-size: 15px;
   color: #6c757d;
 }
 
 @media (min-width: 1200px) {
-  .why-us .icon-box:hover {
+  .Elections-type .icon-box:hover {
     transform: scale(1.1);
   }
 }
-
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
