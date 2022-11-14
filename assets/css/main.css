@@ -316,6 +316,23 @@ section {
   background: #112a76;
 }
 
+.hero .btn-sign,
+.hero .btn-sign:focus {
+  font-size: 14px;
+  color: #fff;
+  background: var(--color-primary);
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.hero .btn-sign:hover,
+.hero .btn-sign:focus:hover {
+  color: #fff;
+  background: #112a76;
+}
+
 .card-body .btn-sign ,
 .card-body .btn-sign:focus {
   font-size: 14px;
@@ -965,50 +982,13 @@ section {
   transition: 0.5s;
   color: #fff;
   background: var(--color-primary);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+  box-shadow: 0 8px 28px #112a76;
 }
 
 .hero .btn-sign:hover {
-  background: rgba(206, 18, 18, 0.8);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
-}
-
-.hero .btn-watch-video {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 36px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #fff;
-  background: var(--color-primary);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
-  margin-left: 25px;
-}
-
-.hero .btn-watch-video i {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 36px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #fff;
-  background: var(--color-primary);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
-  margin-left: 25px;
-}
-
-.hero .btn-watch-video:hover {
-  color: var(--color-primary);
-  background: #193fb0;
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
-}
-
-.hero .btn-watch-video:hover i {
-  color: rgba(206, 18, 18, 0.8);
+  background: #112a76;
+  color: white;
+  box-shadow: 0 8px 28px #112a76;
 }
 
 @media (max-width: 640px) {
