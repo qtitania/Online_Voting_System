@@ -299,8 +299,8 @@ section {
   color: var(--color-primary);
 }
 
-.header .btn-book-a-table,
-.header .btn-book-a-table:focus {
+.header .btn-sign,
+.header .btn-sign:focus {
   font-size: 14px;
   color: #fff;
   background: var(--color-primary);
@@ -310,11 +310,29 @@ section {
   transition: 0.3s;
 }
 
-.header .btn-book-a-table:hover,
-.header .btn-book-a-table:focus:hover {
+.header .btn-sign:hover,
+.header .btn-sign:focus:hover {
   color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  background: #112a76;
 }
+
+.card-body .btn-sign ,
+.card-body .btn-sign:focus {
+  font-size: 14px;
+  color: #fff;
+  background: var(--color-primary);
+  padding: 8px 20px;
+  margin:auto;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.card-body .btn-sign:hover,
+.card-body .btn-sign:focus:hover {
+  color: #fff;
+  background: #112a76;
+}
+
 
 section {
   scroll-margin-top: 90px;
@@ -937,7 +955,7 @@ section {
   margin-bottom: 30px;
 }
 
-.hero .btn-book-a-table {
+.hero .btn-sign {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -950,7 +968,7 @@ section {
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
 
-.hero .btn-book-a-table:hover {
+.hero .btn-sign:hover {
   background: rgba(206, 18, 18, 0.8);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
