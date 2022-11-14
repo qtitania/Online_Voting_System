@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Yummy Bootstrap Template - Index</title>
+    <title>Sign Up</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="/assets/img/favicon.png" rel="icon" />
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,22 +22,37 @@
 
     <!-- Vendor CSS Files -->
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="/assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="/assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="/assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="/assets/css/main.css" rel="stylesheet" />
+
+    <style>
+      .loginscreen {
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url("/assets/img/stats.jpg") ;
+        background-size: cover;
+        background-position: left;
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+      }
+    </style>
 
   </head>
     <!-- ======= Header ======= -->
@@ -48,30 +63,20 @@
           class="logo d-flex align-items-center me-auto me-lg-0"
         >
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1>Voter<span>.</span></h1>
+          <!-- <img src="/assets/img/logo.png" alt=""> -->
+          <h1>VoteX</h1>
         </a>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">Elections</a></li>
-            <li><a href="#menu">Results</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <!-- .navbar -->
-
-        <a class="btn-book-a-table" href="#book-a-table">New Voter?</a>
+        <a class="btn-sign" href="login.html">Sign In</a>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       </div>
     </header>
     <!-- End Header -->
-<div class="container d-flex justify-content-center align-items-center mt-5 " >
-<section class="container-fluid d-flex justify-content-center align-items-center mt-5 p-2 card shadow">
+<div class="d-flex justify-content-center align-items-center loginscreen" >
+<section class="container container-fluid d-flex justify-content-center align-items-center mt-5 p-2 card shadow card-body ">
       <div class="row d-flex ">
-        <h1 class="text-center">SignUp</h1>
+        <h1 class="text-center">Sign Up</h1>
         <div class="col-md-6 offset-md-3">
           <form
           action="#"
@@ -215,7 +220,7 @@
                 </div>
 
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button class="btn btn-sign" >Submit</button>
                 </div>
               </form>
             </div>
